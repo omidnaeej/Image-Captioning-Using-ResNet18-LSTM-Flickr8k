@@ -111,7 +111,7 @@ Example Output:
 
 | Image                       | Predicted Caption                       |
 | --------------------------- | --------------------------------------- |
-| ![Sample](docs/sample1.jpg) | "A man in a shirt is basketball" |
+| ![Sample](image.png) | "A man in a shirt is basketball" |
 
 ---
 
