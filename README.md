@@ -23,7 +23,7 @@ The pipeline covers:
 4. [Usage](#-usage)
 5. [Results](#-results)
 6. [Future Improvements](#-future-improvements)
-7. [License](#-license)
+<!-- 7. [License](#-license) -->
 
 ---
 
@@ -60,7 +60,7 @@ The dataset is fetched via the **Kaggle API**.
 ### **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/flickr8k-image-captioning.git
+git clone https://github.com/omidnaeej/Image-Captioning-Using-ResNet18-LSTM-Flickr8k.git
 cd flickr8k-image-captioning
 ```
 
@@ -103,7 +103,7 @@ Key steps:
 
 ## 📊 Results
 
-* Model successfully generates meaningful captions for unseen images
+* Model generates somewhat meaningful captions for unseen images
 * Fine-tuning (unfreezing ResNet) reduces loss but may require more training time
 * Padding and special tokens (`<SOS>`, `<EOS>`, `<PAD>`) ensure better sequence handling
 
@@ -111,7 +111,7 @@ Example Output:
 
 | Image                       | Predicted Caption                       |
 | --------------------------- | --------------------------------------- |
-| ![Sample](docs/sample1.jpg) | "A group of people standing on a beach" |
+| ![Sample](docs/sample1.jpg) | "A man in a shirt is basketball" |
 
 ---
 
@@ -121,9 +121,3 @@ Example Output:
 * Add attention mechanism for better word-image alignment
 * Train with larger datasets (MS COCO)
 * Hyperparameter tuning for better BLEU scores
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
