@@ -1,6 +1,6 @@
 # Flickr8k Image Captioning
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements an **image captioning model** that generates natural language descriptions for images from the **Flickr8k dataset**.
 The approach combines **Convolutional Neural Networks (CNN)** for image feature extraction and **Recurrent Neural Networks (RNN)** with LSTM for sequence generation.
@@ -15,7 +15,7 @@ The pipeline covers:
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Dataset](#-dataset)
 2. [Model Architecture](#-model-architecture)
@@ -27,7 +27,7 @@ The pipeline covers:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 We use the **Flickr8k** dataset, which contains:
 
@@ -38,7 +38,7 @@ The dataset is fetched via the **Kaggle API**.
 
 ---
 
-## 🏗 Model Architecture
+## Model Architecture
 
 ### **1. Encoder (CNN)**
 
@@ -55,7 +55,7 @@ The dataset is fetched via the **Kaggle API**.
 
 ---
 
-## ⚙ Installation & Setup
+## Installation & Setup
 
 ### **1. Clone the repository**
 
@@ -82,7 +82,7 @@ unzip flickr8k.zip -d ./data
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### **Run the Notebook**
 
@@ -101,7 +101,7 @@ Key steps:
 
 ---
 
-## 📊 Results
+## Results
 
 * Model generates somewhat meaningful captions for unseen images
 * Fine-tuning (unfreezing ResNet) reduces loss but may require more training time
@@ -115,7 +115,7 @@ Example Output:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Experiment with deeper CNNs (ResNet50, EfficientNet)
 * Add attention mechanism for better word-image alignment
